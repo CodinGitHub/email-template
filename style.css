@@ -45,6 +45,34 @@ body{
     margin-right: 8px;
     height: 24px;
 }
+.image{
+    background-color: #f0f5f8 ;
+    text-align: right;
+    height: 322px;
+    position: relative;
+}
+.image-text{
+    width: 171px;
+    height: 160px;
+    text-align: left;
+    color: #006d99;
+    font-size: 28px;
+    position: absolute;
+    z-index: 1;
+    top: 17px;
+    left: 17px;
+}
+.image-background{
+    position: absolute;
+    right: 0;
+}
+.image-bird{
+    width: 310px;
+    position: absolute;
+    bottom: -65px;
+    left: 0;
+    z-index: 20; 
+}
 
 .redes {
     width: 20px;
@@ -63,6 +91,16 @@ body{
 
 .description span {
     font-weight: 900;
+}
+
+.butterfly-container{
+    position: relative;
+}
+.butterfly{
+    height: 70px;
+    position: absolute;
+    right: 0;
+    top: 10px;
 }
 
 .cards {
@@ -141,33 +179,7 @@ body{
     font-size: 15px;
     margin: 0 0 20px 17px;
 }
-.image{
-    /* background: url('./img/background.png'); */
-    /* background-repeat: no-repeat; */
-    
-    /* background-position-x: 136px; */
-    background-color: #f0f5f8 ;
-    /* background-size: cover; */
-    text-align: right;
-    /* padding: 26px 20px; */
-    height: 322px;
-    position: relative;
-}
-.image-text{
-    width: 171px;
-    height: 160px;
-    text-align: left;
-    color: #006d99;
-    font-size: 28px;
-    position: absolute;
-    z-index: 1;
-    top: 17px;
-    left: 17px;
-}
-.image-background{
-    position: absolute;
-    right: 0;
-}
+
 .waves{
     position: absolute;
     bottom: 210px;
@@ -202,6 +214,12 @@ footer{
     .waves{
         bottom: 210px;
     }
+    .image-text{
+        left: 34px;
+    }
+    .image-bird{
+        left: 17px;
+    }
 }
 @media (min-width: 547px ){
     .waves{
@@ -217,5 +235,11 @@ footer{
         gap: 32px;
         width: 100%;
         margin: 87px auto 77px;
+    }
+    .image-text{
+        left: 54px;
+    }
+    .image-bird{
+        left: 37px;
     }
 }
