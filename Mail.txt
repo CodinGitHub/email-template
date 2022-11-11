@@ -1,0 +1,8 @@
+
+ El mail es muy sencillo y solamente debes seguir estas reglas que te marco más abajo:
+ 
+1.       El texto no puede ser imagen
+2.       El fondo no puede ser imagen
+3.       El texto que está en los cuadraditos azules sí puede ser imagen
+4.       Usar tablas y todos los estilos “inline”
+5.       Que sea responsive
