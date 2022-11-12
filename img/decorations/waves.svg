@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 150" preserveAspectRatio="none" shape-rendering="auto">
+  <defs>
+    <path id="gentle-wave" d="M-9.87,66.63 C85.50,3.48 151.52,272.88 556.15,62.67 L500.00,150.00 L0.00,150.00 Z" />
+    <path id="gentle-wave2" d="M-9.31,91.30 C80.98,20.23 151.52,272.88 556.15,62.67 L500.00,150.00 L0.00,150.00 Z" />
+  </defs>
+  <g class="parallax">
+  <use xlink:href="#gentle-wave" x="0" y="0" fill="#adddf1" />
+  <use xlink:href="#gentle-wave2" x="0" y="0" fill="#fff" />
+  </g>
+</svg>

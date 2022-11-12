@@ -1,6 +1,3 @@
-@import url(//db.onlinewebfonts.com/c/d4280feab480528a5c1b9c7b210e97bd?family=VAG+Rounded);
-@import url(//db.onlinewebfonts.com/c/eba6ff471b149c188c89337749e3dc23?family=VAGRounded+BT);
-
 * {
     padding: 0;
     margin: 0;
@@ -10,13 +7,13 @@
 body{
     font-size: 24px;
     font-weight: 900;
-    font-family: "VAG Rounded";
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
 }
 
 .container {
     background-color: #8dd1ea;
     max-width: 992px;
-    /* height: 2248px; */
     margin: 0 auto;
     position: relative;
 }
@@ -52,7 +49,7 @@ body{
     position: relative;
 }
 .image-text{
-    width: 171px;
+    width: 320px;
     height: 160px;
     text-align: left;
     color: #006d99;
@@ -78,7 +75,6 @@ body{
     width: 20px;
     height: 20px;
     margin-left: 3px;
-    /* color: #006d99; */
 }
 
 .description{
@@ -128,7 +124,7 @@ body{
 }
 .card-text{
     color: #666666;
-    font-size: 14px;
+    font-size: 13px;
     margin: 10px 10px 0 17px;
     line-height: 20px;
 }
@@ -152,7 +148,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 14px;
     background-color: #dd5f8c;
     color: white;
     margin: 0 auto;
@@ -181,15 +177,16 @@ body{
 }
 
 .waves{
-    position: absolute;
-    bottom: 210px;
-    width: 100%;
+    height: 140px;
+    background-image: url('./img/decorations/waves.svg');
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 footer{
     background-color: white;
 }
 .logo-container{    
-    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -215,10 +212,11 @@ footer{
         bottom: 210px;
     }
     .image-text{
+        width: 171px;
         left: 34px;
     }
     .image-bird{
-        left: 17px;
+        left: 47px;
     }
 }
 @media (min-width: 547px ){
@@ -240,6 +238,6 @@ footer{
         left: 54px;
     }
     .image-bird{
-        left: 37px;
+        left: 77px;
     }
 }
